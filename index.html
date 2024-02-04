@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+
+  
+    <header>
+
+        
+        <h1>What are your plans today?</h1>
+        <div id="ticking">
+            <div id="hours"></div>
+            <div id="minutes"></div>
+            <div id="seconds"></div>
+        </div>
+        <div id="date">
+            <div id="week"></div>
+            <div id="day"></div>
+           
+            <div id="month"></div>
+        </div>
+         
+        
+    </header>
+    <section class="task-container">
+        <div class="container">
+            
+            <div class="msg"></div>
+            <form id="new-task-form">
+                <input type="text" id="task-input" placeholder="Enter task..." />
+                <input type="submit" id="task-submit" value="Add task"/>
+                
+            </form>
+            
+            <h2>Task</h2>
+                 <div id="count-container">
+                    <div><p>Total<span id="total">0</span></p></div>
+                    <div><p>Remaining<span id="remaining">0</span></p></div>
+                    <div><p>Done<span id="done">0</span></p></div>
+
+                 </div>
+            <div id="tasks">
+               
+
+            </div>
+            
+        </div>
+        
+    </section>
+    <section class="content">
+        <div id="quoteContainer">
+            <div id="item">
+                <p>Quote of the Day</p>
+                <span class="quote">"I do the very best I know how - the very best I can; and I mean to
+            keep on doing so until the end."</span>
+            </div>
+            <div class="person">Abraham Lincoln</div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer">
+            <p><span id="year"></span> &copy; All Rights Reserved | Designed and Developed by Callylove.</p>
+        </div>
+        
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
